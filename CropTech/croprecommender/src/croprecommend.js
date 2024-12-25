@@ -34,7 +34,7 @@ function Form({ onSubmit }) {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-green-500 to-green-700 rounded-lg px-4 m-8 h-[calc(100vh-80px)] "style={{marginTop:"100px"}}>
+      <div className="bg-gradient-to-r from-green-500 to-green-700 rounded-lg px-4 m-8 h-[calc(100vh-80px)] "style={{marginTop:"200px"}}>
         <form onSubmit={handleSubmit}>
           <div className="text-2xl font-bold flex justify-center items-center py-8">
             <a>

@@ -14,6 +14,7 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],  # You can specify specific headers here if needed
 )
+
 # Loading Model:
 pickle_in = open("./Fertclassifier.pkl", "rb")
 classifier = pickle.load(pickle_in)
